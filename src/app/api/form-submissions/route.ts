@@ -2,6 +2,9 @@ import { NextResponse } from "next/server";
 import { mkdir, stat, appendFile } from "fs/promises";
 import path from "path";
 
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
+
 type FormType = "contact" | "comparator" | "newsletter";
 
 const filesByType: Record<FormType, string> = {

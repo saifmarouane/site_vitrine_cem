@@ -28,9 +28,11 @@ const NewsLatterBox = () => {
       `Email: ${email}`,
       "Source: formulaire lateral",
     ].join("\n");
+    const whatsappUrl = buildWhatsAppUrl(whatsappMessage);
 
     try {
       setIsSubmitting(true);
+      window.open(whatsappUrl, "_blank", "noopener,noreferrer");
       await submitFormData({
         formType: "newsletter",
         payload: { name, email, source: "newsletter" },
@@ -39,7 +41,6 @@ const NewsLatterBox = () => {
       setIsSubmitted(true);
       setName("");
       setEmail("");
-      window.open(buildWhatsAppUrl(whatsappMessage), "_blank", "noopener,noreferrer");
     } catch {
       setError("Impossible d'enregistrer la demande pour le moment.");
     } finally {

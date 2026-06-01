@@ -72,9 +72,11 @@ const Contact = () => {
       `Energie: ${values.energyType}`,
       `Message: ${values.message || "Non renseigne"}`,
     ].join("\n");
+    const whatsappUrl = buildWhatsAppUrl(whatsappMessage);
 
     try {
       setIsSubmitting(true);
+      window.open(whatsappUrl, "_blank", "noopener,noreferrer");
       await submitFormData({
         formType: "contact",
         payload: values,
@@ -82,10 +84,9 @@ const Contact = () => {
       });
       setIsSubmitted(true);
       setValues(initialValues);
-      window.open(buildWhatsAppUrl(whatsappMessage), "_blank", "noopener,noreferrer");
     } catch {
       setSubmitError(
-        "La demande n'a pas pu etre enregistree. Vous pouvez utiliser le lien WhatsApp.",
+        "WhatsApp a ete ouvert. Si le fichier Excel ne se remplit pas, l'API locale n'est pas disponible sur cet hebergement.",
       );
     } finally {
       setIsSubmitting(false);

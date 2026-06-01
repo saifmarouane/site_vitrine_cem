@@ -1,0 +1,297 @@
+[
+  {
+    "id": 1,
+    "slug": "changer-fournisseur-electricite-sans-coupure",
+    "title": "Changer de fournisseur d'electricite sans coupure : guide complet",
+    "paragraph": "Comprenez comment changer de fournisseur d'electricite gratuitement, sans coupure et sans intervention technique.",
+    "image": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&w=1400&q=80",
+    "author": {
+      "name": "EnergieCompare",
+      "image": "/images/blog/author-01.png",
+      "designation": "Guide energie"
+    },
+    "tags": ["electricite"],
+    "publishDate": "2026",
+    "readingTime": "7 min",
+    "content": {
+      "intro": "Changer de fournisseur d'electricite peut permettre de trouver un contrat plus adapte a votre consommation, sans changer de compteur ni modifier le reseau. Pour un particulier, l'objectif est de comparer le cout annuel, les conditions du contrat et les services inclus avant de demander la souscription.",
+      "sections": [
+        {
+          "title": "Pourquoi comparer avant de changer ?",
+          "paragraphs": [
+            "Le prix du kWh n'est qu'une partie de la facture. L'abonnement mensuel, l'option heures pleines/heures creuses, la puissance compteur et les conditions d'evolution du prix peuvent changer fortement le cout final.",
+            "Avant de signer, relevez votre consommation annuelle en kWh sur votre facture ou dans votre espace client. Cette information permet d'estimer votre budget annuel avec plus de precision."
+          ]
+        },
+        {
+          "title": "Le changement est-il vraiment sans coupure ?",
+          "paragraphs": [
+            "Le changement de fournisseur ne modifie pas le reseau de distribution. L'electricite arrive par les memes infrastructures, et le compteur reste en place.",
+            "Dans la majorite des cas, aucune intervention technique n'est necessaire. Le nouveau fournisseur prend en charge les demarches liees au contrat commercial."
+          ]
+        },
+        {
+          "title": "Les criteres SEO et pratiques a verifier",
+          "paragraphs": [
+            "Comparez toujours le prix du kWh TTC, le prix de l'abonnement, la duree de validite du prix, les conditions de revision et les services client inclus.",
+            "Si vous cherchez une offre verte, verifiez la presence de garanties d'origine et la clarte des engagements du fournisseur."
+          ]
+        },
+        {
+          "title": "Quand demander un rappel ?",
+          "paragraphs": [
+            "Un rappel est utile si vous avez une facture complexe, si vous comparez plusieurs logements ou si vous souhaitez comparer electricite et gaz ensemble.",
+            "Un conseiller peut reformuler les offres en cout annuel estime et vous aider a eviter les mauvaises surprises."
+          ]
+        }
+      ],
+      "conclusion": "Changer de fournisseur d'electricite est surtout une decision de comparaison. Le bon contrat est celui qui correspond a votre consommation, a vos preferences tarifaires et a votre besoin d'accompagnement."
+    },
+    "references": [
+      {
+        "label": "Service-Public.fr - Changement de fournisseur d'electricite ou de gaz",
+        "url": "https://www.service-public.fr/particuliers/vosdroits/F18116"
+      },
+      {
+        "label": "Energie-Info - Site d'information du mediateur national de l'energie",
+        "url": "https://www.energie-info.fr/"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "prix-kwh-abonnement-comprendre-facture-electricite",
+    "title": "Prix du kWh et abonnement : comprendre sa facture d'electricite",
+    "paragraph": "Un guide SEO pour comprendre le prix du kWh, l'abonnement mensuel, la puissance compteur et les options tarifaires.",
+    "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1400&q=80",
+    "author": {
+      "name": "EnergieCompare",
+      "image": "/images/blog/author-02.png",
+      "designation": "Guide facture"
+    },
+    "tags": ["tarifs"],
+    "publishDate": "2026",
+    "readingTime": "8 min",
+    "content": {
+      "intro": "Pour comparer une offre d'electricite, il faut comprendre les deux grandes lignes de la facture : la part variable liee a votre consommation et la part fixe liee a l'abonnement. Une offre apparemment moins chere peut devenir moins interessante si l'abonnement est eleve.",
+      "sections": [
+        {
+          "title": "Le prix du kWh",
+          "paragraphs": [
+            "Le kWh mesure l'energie consommee. Plus votre logement consomme, plus le prix du kWh devient important dans le calcul annuel.",
+            "Un foyer chauffe a l'electricite doit regarder cette ligne avec attention, car une petite difference de prix peut peser fortement sur douze mois."
+          ]
+        },
+        {
+          "title": "L'abonnement mensuel",
+          "paragraphs": [
+            "L'abonnement est paye meme si vous consommez peu. Il depend notamment de la puissance compteur et de l'offre choisie.",
+            "Pour un petit logement ou une residence secondaire, un abonnement plus bas peut parfois etre plus important qu'un kWh legerement moins cher."
+          ]
+        },
+        {
+          "title": "Puissance compteur et options",
+          "paragraphs": [
+            "La puissance compteur, exprimee en kVA, doit correspondre aux equipements du logement. Une puissance trop haute peut augmenter la facture inutilement.",
+            "L'option heures pleines/heures creuses peut etre interessante si vous deplacez une partie importante de votre consommation sur les plages creuses."
+          ]
+        },
+        {
+          "title": "Comparer avec une estimation annuelle",
+          "paragraphs": [
+            "La meilleure lecture reste le cout annuel estime. Il combine le prix du kWh, l'abonnement et votre consommation.",
+            "Un comparateur doit donc demander la consommation annuelle ou, a defaut, l'estimer a partir du logement, de la surface et du nombre d'occupants."
+          ]
+        }
+      ],
+      "conclusion": "Le prix du kWh attire l'attention, mais l'abonnement et la puissance compteur sont tout aussi importants. Comparez toujours une estimation annuelle complete."
+    },
+    "references": [
+      {
+        "label": "Energie-Info - Comprendre les offres d'electricite et de gaz",
+        "url": "https://www.energie-info.fr/"
+      },
+      {
+        "label": "CRE - Informations sur les marches de l'electricite et du gaz",
+        "url": "https://www.cre.fr/"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "offre-gaz-prix-fixe-indexe-bien-comparer",
+    "title": "Offre gaz : prix fixe ou prix indexe, comment bien comparer ?",
+    "paragraph": "Les criteres essentiels pour comparer une offre gaz : consommation annuelle, abonnement, prix fixe, prix indexe et biogaz.",
+    "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=1400&q=80",
+    "author": {
+      "name": "EnergieCompare",
+      "image": "/images/blog/author-03.png",
+      "designation": "Guide gaz"
+    },
+    "tags": ["gaz"],
+    "publishDate": "2026",
+    "readingTime": "7 min",
+    "content": {
+      "intro": "Comparer une offre de gaz demande une lecture differente de l'electricite. La consommation annuelle, l'abonnement, la zone tarifaire et le type de prix influencent le cout final.",
+      "sections": [
+        {
+          "title": "La consommation annuelle de gaz",
+          "paragraphs": [
+            "Le chauffage, l'eau chaude et la cuisson peuvent faire varier fortement la consommation annuelle.",
+            "Un logement chauffe au gaz doit comparer les offres sur une base annuelle plutot que sur un simple prix mensuel."
+          ]
+        },
+        {
+          "title": "Prix fixe ou prix indexe",
+          "paragraphs": [
+            "Une offre a prix fixe peut apporter de la visibilite pendant une periode donnee, selon les conditions prevues au contrat.",
+            "Une offre indexee suit une reference de prix. Elle peut donc evoluer dans le temps, a la hausse ou a la baisse."
+          ]
+        },
+        {
+          "title": "Abonnement et zone tarifaire",
+          "paragraphs": [
+            "L'abonnement gaz est une part fixe. Il doit etre compare avec le prix du kWh pour obtenir le cout total.",
+            "Selon l'offre, la localisation du logement peut aussi jouer sur le tarif applique."
+          ]
+        },
+        {
+          "title": "Biogaz et offres vertes",
+          "paragraphs": [
+            "Certaines offres integrent une part de biogaz ou mettent en avant des engagements environnementaux.",
+            "Ces offres doivent etre comparees sur le prix, mais aussi sur la transparence de la part renouvelable annoncee."
+          ]
+        }
+      ],
+      "conclusion": "La bonne offre gaz depend de votre usage. Pour comparer serieusement, partez de votre consommation annuelle et regardez l'ensemble prix du kWh + abonnement + conditions."
+    },
+    "references": [
+      {
+        "label": "Energie-Info - Comparer les offres de gaz",
+        "url": "https://www.energie-info.fr/"
+      },
+      {
+        "label": "Service-Public.fr - Electricite et gaz",
+        "url": "https://www.service-public.fr/particuliers/vosdroits/N19808"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "electricite-verte-biogaz-garanties-origine",
+    "title": "Electricite verte, biogaz et garanties d'origine : que faut-il verifier ?",
+    "paragraph": "Un guide complet pour comprendre les offres d'energie verte, les garanties d'origine et les criteres de comparaison.",
+    "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1400&q=80",
+    "author": {
+      "name": "EnergieCompare",
+      "image": "/images/blog/author-01.png",
+      "designation": "Guide energie verte"
+    },
+    "tags": ["energie verte"],
+    "publishDate": "2026",
+    "readingTime": "8 min",
+    "content": {
+      "intro": "Les offres d'energie verte attirent de nombreux particuliers, mais elles ne se ressemblent pas toutes. Il faut verifier la nature de l'offre, les garanties d'origine, le prix et la transparence des engagements.",
+      "sections": [
+        {
+          "title": "Electricite verte : le principe",
+          "paragraphs": [
+            "Une offre d'electricite verte repose souvent sur des garanties d'origine. Elles certifient qu'une quantite equivalente d'electricite renouvelable a ete injectee sur le reseau.",
+            "Le consommateur ne recoit pas physiquement une electricite differente : l'enjeu est contractuel et comptable."
+          ]
+        },
+        {
+          "title": "Biogaz : verifier la part incluse",
+          "paragraphs": [
+            "Une offre gaz peut inclure une part de biogaz. Cette part peut varier selon les fournisseurs et les contrats.",
+            "Avant de choisir, verifiez si l'offre indique clairement la part renouvelable et son impact sur le prix."
+          ]
+        },
+        {
+          "title": "Comparer au-dela du prix",
+          "paragraphs": [
+            "Une offre verte peut etre competitive, mais il faut regarder le prix du kWh, l'abonnement, la duree du contrat et les conditions d'evolution.",
+            "La qualite de l'information fournie par le fournisseur est aussi un critere important."
+          ]
+        },
+        {
+          "title": "Pour quels profils ?",
+          "paragraphs": [
+            "Les offres vertes peuvent convenir aux foyers qui veulent integrer un critere environnemental dans leur choix.",
+            "Elles restent a comparer avec les offres classiques pour mesurer l'ecart de prix et les services inclus."
+          ]
+        }
+      ],
+      "conclusion": "Une offre verte doit etre lisible, transparente et adaptee a votre consommation. Comparez les garanties, la part renouvelable et le cout annuel avant de choisir."
+    },
+    "references": [
+      {
+        "label": "Energie-Info - Offres vertes et garanties d'origine",
+        "url": "https://www.energie-info.fr/"
+      },
+      {
+        "label": "ADEME - Energie et transition ecologique",
+        "url": "https://www.ademe.fr/"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "demenagement-ouvrir-contrat-electricite-gaz",
+    "title": "Demenagement : ouvrir un contrat electricite ou gaz sans stress",
+    "paragraph": "Les informations a preparer pour ouvrir un contrat energie lors d'un demenagement et eviter les mauvaises surprises.",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80",
+    "author": {
+      "name": "EnergieCompare",
+      "image": "/images/blog/author-02.png",
+      "designation": "Guide demenagement"
+    },
+    "tags": ["demenagement"],
+    "publishDate": "2026",
+    "readingTime": "6 min",
+    "content": {
+      "intro": "Un demenagement est le bon moment pour comparer les fournisseurs d'electricite et de gaz. Le nouveau logement peut avoir une consommation differente, une autre puissance compteur ou un autre mode de chauffage.",
+      "sections": [
+        {
+          "title": "Preparer les informations du logement",
+          "paragraphs": [
+            "Avant de souscrire, preparez l'adresse exacte, la date d'entree, le type de logement, la surface, le nombre d'occupants et si possible le point de livraison ou le point de comptage.",
+            "Ces informations permettent au fournisseur d'identifier le compteur et de proposer une offre adaptee."
+          ]
+        },
+        {
+          "title": "Comparer avant l'entree dans les lieux",
+          "paragraphs": [
+            "Comparer quelques jours avant l'arrivee evite de choisir dans l'urgence.",
+            "Vous pouvez aussi demander un rappel pour verifier si l'electricite, le gaz ou les deux doivent etre ouverts."
+          ]
+        },
+        {
+          "title": "Relever les compteurs",
+          "paragraphs": [
+            "Le jour de l'entree, relevez les index de compteur si cela est possible. Cela facilite la facturation de depart.",
+            "En cas de doute, conservez une photo des compteurs ou des informations transmises par l'ancien occupant."
+          ]
+        },
+        {
+          "title": "Adapter l'offre au nouveau profil",
+          "paragraphs": [
+            "Un logement plus grand, un chauffage electrique ou une famille plus nombreuse peuvent changer fortement la consommation.",
+            "Ne reprenez pas automatiquement votre ancien contrat sans comparer le cout annuel estime pour le nouveau logement."
+          ]
+        }
+      ],
+      "conclusion": "Pour un demenagement, le bon reflexe est d'anticiper. Comparez les offres, preparez les informations du compteur et choisissez un contrat adapte au nouveau logement."
+    },
+    "references": [
+      {
+        "label": "Service-Public.fr - Demarches en cas de demenagement",
+        "url": "https://www.service-public.fr/particuliers/vosdroits/N19808"
+      },
+      {
+        "label": "Energie-Info - Informations pratiques electricite et gaz",
+        "url": "https://www.energie-info.fr/"
+      }
+    ]
+  }
+]

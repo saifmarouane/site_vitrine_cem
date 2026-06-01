@@ -89,18 +89,20 @@ const ComparatorMVP = () => {
       `Sans engagement: ${values.noCommitment ? "Oui" : "Non"}`,
       `Contact: ${values.contact || "Non renseigne"}`,
     ].join("\n");
+    const whatsappUrl = buildWhatsAppUrl(whatsappMessage);
 
     try {
       setIsSubmitting(true);
+      window.open(whatsappUrl, "_blank", "noopener,noreferrer");
       await submitFormData({
         formType: "comparator",
         payload: values,
         whatsappMessage,
       });
-      window.open(buildWhatsAppUrl(whatsappMessage), "_blank", "noopener,noreferrer");
+      setSubmitError("");
     } catch {
       setSubmitError(
-        "La comparaison s'affiche, mais l'enregistrement local a echoue.",
+        "WhatsApp a ete ouvert. Si le fichier Excel ne se remplit pas, l'API locale n'est pas disponible sur cet hebergement.",
       );
     } finally {
       setIsSubmitting(false);
