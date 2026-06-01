@@ -5,12 +5,13 @@ import path from "path";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-type FormType = "contact" | "comparator" | "newsletter";
+type FormType = "contact" | "comparator" | "newsletter" | "renovation";
 
 const filesByType: Record<FormType, string> = {
   contact: "contact-leads.csv",
   comparator: "comparator-leads.csv",
   newsletter: "newsletter-leads.csv",
+  renovation: "renovation-leads.csv",
 };
 
 const csvHeader =

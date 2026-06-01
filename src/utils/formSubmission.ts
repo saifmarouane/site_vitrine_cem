@@ -1,7 +1,11 @@
 export const whatsappPhone = "212666599460";
 export const whatsappQrLink = "https://wa.me/qr/K3FYB7HSPU6OK1";
 
-export type FormSubmissionType = "contact" | "comparator" | "newsletter";
+export type FormSubmissionType =
+  | "contact"
+  | "comparator"
+  | "newsletter"
+  | "renovation";
 
 export const buildWhatsAppUrl = (message: string) =>
   `https://wa.me/${whatsappPhone}?text=${encodeURIComponent(message)}`;

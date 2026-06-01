@@ -50,6 +50,12 @@ const menuData: Menu[] = [
       },
       {
         id: 63,
+        title: "MaPrimeRenov",
+        path: "/simulateur",
+        newTab: false,
+      },
+      {
+        id: 64,
         title: "FAQ",
         path: "/faq",
         newTab: false,
