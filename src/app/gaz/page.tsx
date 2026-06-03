@@ -1,20 +1,20 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import InfoPage from "@/components/Energy/InfoPage";
 import { gasPage } from "@/data/energyPages";
+import { siteContent } from "@/data/siteContent";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Comparer les offres gaz | EnergieCompare",
-  description:
-    "Comparez les offres de gaz selon votre consommation annuelle, votre zone tarifaire et les options prix fixe ou indexe.",
+  title: siteContent.gas.metadata.title,
+  description: siteContent.gas.metadata.description,
 };
 
 const GazPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Gaz"
-        description="Comparez les offres gaz selon votre logement, votre zone tarifaire et votre consommation annuelle."
+        pageName={siteContent.gas.h1}
+        description={siteContent.gas.paragraphs.join(" ")}
       />
       <InfoPage intro={gasPage.intro} items={gasPage.items} />
     </>

@@ -8,14 +8,15 @@ const footerLinks = [
     links: [
       { label: "Comparer les offres", href: "/comparer" },
       { label: "Fournisseurs", href: "/fournisseurs" },
-      { label: "Energie verte", href: "/energie-verte" },
+      { label: "Électricité verte", href: "/energie-verte" },
     ],
   },
   {
-    title: "Energie",
+    title: "Énergie",
     links: [
-      { label: "Electricite", href: "/electricite" },
+      { label: "Électricité", href: "/electricite" },
       { label: "Gaz", href: "/gaz" },
+      { label: "Panneaux solaires", href: "/panneaux-solaires" },
       { label: "Guides", href: "/guides" },
     ],
   },
@@ -23,8 +24,10 @@ const footerLinks = [
     title: "Aide",
     links: [
       { label: "FAQ", href: "/faq" },
+      { label: "Glossaire", href: "/glossaire" },
+      { label: "Témoignages", href: "/temoignages" },
       { label: "Contact", href: "/contact" },
-      { label: "Etre rappele", href: "/contact" },
+      { label: "Être rappelé", href: "/contact" },
     ],
   },
 ];
@@ -42,16 +45,16 @@ const Footer = () => {
               >
                 <Image
                   src="/images/logo/logo.png"
-                  alt="CEM - Call Center"
+                  alt="ÉnergieCompare"
                   width={170}
                   height={90}
                   className="h-16 w-auto object-contain"
                 />
               </Link>
               <p className="mb-6 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                Comparez les fournisseurs d&apos;energie en France, estimez vos
-                economies et trouvez une offre d&apos;electricite, de gaz ou
-                d&apos;energie verte adaptee a votre logement.
+                Comparez les fournisseurs d&apos;énergie en France, estimez vos
+                économies et trouvez une offre d&apos;électricité, de gaz ou
+                d&apos;énergie verte adaptée à votre logement.
               </p>
               <Link
                 href="/comparer"
@@ -91,7 +94,7 @@ const Footer = () => {
         <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
         <div className="py-8">
           <p className="text-center text-base text-body-color dark:text-white">
-            (c) CEM. Service de comparaison d&apos;energie, sans souscription
+            © ÉnergieCompare. Service de comparaison d&apos;énergie, sans souscription
             en ligne dans cette version MVP.
           </p>
         </div>

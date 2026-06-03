@@ -1,20 +1,20 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import { siteContent } from "@/data/siteContent";
 import { faqItems } from "@/data/faq";
 import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "FAQ energie | EnergieCompare",
-  description:
-    "Reponses aux questions frequentes sur le changement de fournisseur, les coupures, les offres vertes et les economies estimees.",
+  title: siteContent.faq.metadata.title,
+  description: siteContent.faq.metadata.description,
 };
 
 const FAQPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="FAQ"
-        description="Les reponses aux questions les plus frequentes avant de comparer ou de changer de fournisseur."
+        pageName={siteContent.faq.h1}
+        description={siteContent.faq.metadata.description}
       />
 
       <section className="pb-16 pt-12 md:pb-20 lg:pb-28">

@@ -1,7 +1,9 @@
-import { advantages } from "@/data/advantages";
+import { siteContent } from "@/data/siteContent";
 import Image from "next/image";
 
 const AboutSectionTwo = () => {
+  const { home } = siteContent;
+
   return (
     <section className="py-16 md:py-20 lg:py-28">
       <div className="container">
@@ -27,16 +29,19 @@ const AboutSectionTwo = () => {
           </div>
           <div className="w-full px-4 lg:w-1/2">
             <div className="max-w-[470px]">
-              {advantages.map((advantage, index) => (
+              <h2 className="mb-7 text-3xl font-bold text-black dark:text-white">
+                Les chiffres de confiance
+              </h2>
+              {home.stats.map((stat, index) => (
                 <div
-                  key={advantage.title}
-                  className={index === advantages.length - 1 ? "mb-1" : "mb-9"}
+                  key={stat}
+                  className={index === home.stats.length - 1 ? "mb-1" : "mb-7"}
                 >
                   <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                    {advantage.title}
+                    {stat.split(" : ")[0]}
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    {advantage.description}
+                    {stat.includes(" : ") ? stat.split(" : ").slice(1).join(" : ") : stat}
                   </p>
                 </div>
               ))}

@@ -26,7 +26,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="Comment fonctionne la comparaison ?"
-                paragraph="EnergieCompare simplifie la lecture des offres d'energie pour vous aider a prendre une decision plus rapidement, sans jargon inutile."
+                paragraph="ÉnergieCompare simplifie la lecture des offres d'énergie pour vous aider à prendre une décision plus rapidement, sans jargon inutile."
                 mb="44px"
               />
 

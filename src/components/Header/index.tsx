@@ -58,7 +58,7 @@ const Header = () => {
               >
                 <Image
                   src="/images/logo/logo.png"
-                  alt="CEM - Call Center"
+                  alt="ÉnergieCompare"
                   width={150}
                   height={80}
                   priority
@@ -157,7 +157,7 @@ const Header = () => {
                   href="/contact"
                   className="hidden px-5 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white md:block"
                 >
-                  Etre rappele
+                  Être rappelé
                 </Link>
                 <Link
                   href="/comparer"

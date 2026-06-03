@@ -2,84 +2,84 @@ import { EnergyPageContent } from "@/types/energy";
 
 export const electricityPage: EnergyPageContent = {
   intro:
-    "Comparer une offre d'electricite demande de regarder le prix du kWh, l'abonnement mensuel, la puissance compteur et les options tarifaires.",
+    "L'électricité est l'énergie la plus utilisée dans les foyers français : chauffage, eau chaude, cuisson, appareils électroménagers. Depuis l'ouverture à la concurrence en 2007, les consommateurs ont le libre choix entre le Tarif Réglementé de Vente et les offres de marché.",
   items: [
     {
-      title: "Prix du kWh",
+      title: "Réseau Enedis",
       description:
-        "Le prix du kWh determine le cout de votre consommation. Il varie selon le fournisseur, l'offre et les options tarifaires.",
+        "En France, le réseau de distribution est géré par Enedis, anciennement ERDF, pour 95 % du territoire.",
     },
     {
-      title: "Abonnement mensuel",
+      title: "Production électrique",
       description:
-        "L'abonnement est une part fixe de la facture. Il doit etre compare avec le prix du kWh pour estimer le cout annuel.",
+        "La production est assurée majoritairement par le parc nucléaire d'EDF, complété par des sources renouvelables en forte croissance.",
     },
     {
-      title: "Puissance compteur",
+      title: "Tarif Réglementé de Vente",
       description:
-        "La puissance compteur influence l'abonnement. Une puissance adaptee evite de payer trop cher pour votre usage.",
+        "Le TRV est fixé par l'État et accessible uniquement chez EDF pour l'électricité.",
     },
     {
-      title: "Heures pleines / heures creuses",
+      title: "Offres de marché",
       description:
-        "Cette option peut etre interessante si une part importante de votre consommation a lieu sur les plages creuses.",
+        "Les fournisseurs alternatifs proposent des tarifs librement définis, avec prix fixes, prix indexés ou options vertes.",
     },
     {
-      title: "Offres vertes",
+      title: "Heures creuses",
       description:
-        "Les offres d'electricite verte reposent notamment sur des garanties d'origine et des engagements fournisseurs.",
+        "Les options heures pleines/heures creuses peuvent réduire la facture si une part importante de la consommation a lieu sur les plages creuses.",
     },
     {
-      title: "Contrats sans engagement",
+      title: "Comparaison régulière",
       description:
-        "Pour les particuliers, changer de fournisseur est gratuit et ne provoque pas de coupure.",
+        "Comparer les offres électricité permet d'évaluer le prix du kWh, l'abonnement, la puissance compteur et les conditions contractuelles.",
     },
   ],
 };
 
 export const gasPage: EnergyPageContent = {
   intro:
-    "Pour comparer le gaz, il faut prendre en compte la consommation annuelle, la zone tarifaire, l'abonnement et le type de prix.",
+    "Le gaz naturel alimente 11 millions de foyers français pour le chauffage central, la production d'eau chaude sanitaire et la cuisson. Depuis la suppression des tarifs réglementés en 2023, tous les nouveaux contrats de gaz relèvent des offres de marché.",
   items: [
     {
-      title: "Consommation annuelle",
+      title: "Tarifs 2025",
       description:
-        "La consommation annuelle en kWh permet d'estimer le cout global et de comparer les offres sur une base coherente.",
+        "Les prix du gaz ont connu de fortes variations ces dernières années, rendant la comparaison régulière indispensable.",
     },
     {
-      title: "Zones tarifaires",
+      title: "Offres de marché",
       description:
-        "Le prix du gaz peut varier selon la zone de distribution et la distance avec les points d'approvisionnement.",
-    },
-    {
-      title: "Prix fixe",
-      description:
-        "Une offre a prix fixe peut apporter de la visibilite sur une periode donnee, selon les conditions du contrat.",
-    },
-    {
-      title: "Prix indexe",
-      description:
-        "Une offre indexee suit une reference de prix. Elle peut evoluer a la hausse ou a la baisse.",
+        "Depuis 2023, les nouveaux contrats gaz relèvent des offres de marché proposées par les fournisseurs.",
     },
     {
       title: "Biogaz",
       description:
-        "Certaines offres integrent une part de biogaz ou des engagements lies aux energies renouvelables.",
+        "Le biogaz, ou gaz naturel renouvelable, est produit par la méthanisation de déchets organiques.",
     },
     {
-      title: "Accompagnement",
+      title: "Même réseau",
       description:
-        "Un conseiller peut vous aider a comprendre les differences entre les offres gaz disponibles.",
+        "Le biogaz est injecté dans le même réseau de distribution que le gaz fossile.",
+    },
+    {
+      title: "Bilan carbone",
+      description:
+        "Son bilan carbone est considéré comme neutre sur le cycle de vie, ce qui en fait une option plus vertueuse.",
+    },
+    {
+      title: "Budget énergétique",
+      description:
+        "Comparer les offres gaz permet de préserver son budget énergétique selon sa consommation et son usage.",
     },
   ],
 };
 
 export const greenEnergyPage: EnergyPageContent = {
   intro:
-    "Les offres vertes peuvent concerner l'electricite, le gaz ou les deux. L'objectif est de comprendre ce qui est reellement inclus dans le contrat.",
+    "Une offre d'électricité verte certifiée doit impérativement s'appuyer sur des Garanties d'Origine (GO), un mécanisme européen qui atteste que chaque kWh consommé a été produit à partir d'une source renouvelable.",
   items: [
     {
-      title: "Electricite verte",
+      title: "Électricité verte",
       description:
         "Les offres vertes mettent en avant une production renouvelable ou des garanties d'origine associees a votre consommation.",
     },
@@ -91,12 +91,12 @@ export const greenEnergyPage: EnergyPageContent = {
     {
       title: "Garanties d'origine",
       description:
-        "Elles certifient qu'une quantite equivalente d'energie renouvelable a ete injectee sur le reseau.",
+        "Elles certifient qu'une quantité équivalente d'énergie renouvelable a été injectée sur le réseau.",
     },
     {
       title: "Impact environnemental",
       description:
-        "Comparer une offre verte demande de regarder les engagements, la transparence et la part d'energie renouvelable.",
+        "Comparer une offre verte demande de regarder les engagements, la transparence et la part d'énergie renouvelable.",
     },
     {
       title: "Prix et conditions",
@@ -106,7 +106,7 @@ export const greenEnergyPage: EnergyPageContent = {
     {
       title: "Choix accompagne",
       description:
-        "EnergieCompare aide a identifier les offres vertes adaptees a vos priorites et a votre budget.",
+        "ÉnergieCompare aide à identifier les offres vertes adaptées à vos priorités et à votre budget.",
     },
   ],
 };

@@ -21,7 +21,7 @@ const menuData: Menu[] = [
   },
   {
     id: 4,
-    title: "Electricite",
+    title: "Électricité",
     path: "/electricite",
     newTab: false,
   },
@@ -38,7 +38,7 @@ const menuData: Menu[] = [
     submenu: [
       {
         id: 61,
-        title: "Energie verte",
+        title: "Électricité verte",
         path: "/energie-verte",
         newTab: false,
       },
@@ -50,8 +50,32 @@ const menuData: Menu[] = [
       },
       {
         id: 63,
-        title: "MaPrimeRenov",
+        title: "MaPrimeRénov",
+        path: "/maprimerenov",
+        newTab: false,
+      },
+      {
+        id: 65,
+        title: "Panneaux solaires",
+        path: "/panneaux-solaires",
+        newTab: false,
+      },
+      {
+        id: 66,
+        title: "Simulateur",
         path: "/simulateur",
+        newTab: false,
+      },
+      {
+        id: 67,
+        title: "Témoignages",
+        path: "/temoignages",
+        newTab: false,
+      },
+      {
+        id: 68,
+        title: "Glossaire",
+        path: "/glossaire",
         newTab: false,
       },
       {

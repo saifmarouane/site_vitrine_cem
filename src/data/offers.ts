@@ -4,7 +4,7 @@ export const simulatedOffers: SimulatedOffer[] = [
   {
     id: "edf-elec-zen",
     supplier: "EDF",
-    name: "Electricite Zen",
+    name: "Électricité Zen",
     energyType: "electricite",
     priceType: "indexe",
     annualEstimate: 1180,
@@ -17,17 +17,17 @@ export const simulatedOffers: SimulatedOffer[] = [
     energyType: "les_deux",
     priceType: "fixe",
     annualEstimate: 1760,
-    features: ["Electricite + gaz", "Prix fixe 1 an", "Accompagnement conseiller"],
+    features: ["Électricité + gaz", "Prix fixe 1 an", "Accompagnement conseiller"],
   },
   {
     id: "ekwateur-green",
     supplier: "Ekwateur",
-    name: "Electricite verte",
+    name: "Électricité verte",
     energyType: "electricite",
     priceType: "variable",
     annualEstimate: 1215,
     isGreen: true,
-    features: ["Electricite verte", "Garanties d'origine", "Sans engagement"],
+    features: ["Électricité verte", "Garanties d'origine", "Sans engagement"],
   },
   {
     id: "total-gaz",
@@ -46,7 +46,7 @@ export const simulatedOffers: SimulatedOffer[] = [
     priceType: "fixe",
     annualEstimate: 1140,
     isGreen: true,
-    features: ["Electricite verte", "Prix fixe", "Suivi consommation"],
+    features: ["Électricité verte", "Prix fixe", "Suivi consommation"],
   },
   {
     id: "ohm-duo",
@@ -55,6 +55,6 @@ export const simulatedOffers: SimulatedOffer[] = [
     energyType: "les_deux",
     priceType: "variable",
     annualEstimate: 1690,
-    features: ["Electricite + gaz", "Offre sans engagement", "Souscription accompagnee"],
+    features: ["Électricité + gaz", "Offre sans engagement", "Souscription accompagnée"],
   },
 ];

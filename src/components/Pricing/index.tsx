@@ -12,11 +12,11 @@ const Pricing = () => {
       <div className="container">
         <div className="rounded-sm bg-primary px-8 py-12 text-center shadow-three md:px-12 lg:px-16">
           <h2 className="mx-auto mb-5 max-w-[760px] text-3xl font-bold leading-tight text-white sm:text-4xl">
-            Pret a comparer votre offre d&apos;energie ?
+            Prêt à comparer votre offre d&apos;énergie ?
           </h2>
           <p className="mx-auto mb-8 max-w-[720px] text-base font-medium leading-relaxed text-white/90 sm:text-lg">
-            Lancez une comparaison ou demandez a etre rappele par un conseiller
-            pour trouver une offre adaptee a votre situation.
+            Lancez une comparaison ou demandez à être rappelé par un conseiller
+            pour trouver une offre adaptée à votre situation.
           </p>
           <div className="mb-9 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
@@ -29,7 +29,7 @@ const Pricing = () => {
               href="/contact"
               className="rounded-sm bg-orange px-8 py-4 text-base font-semibold text-white duration-300 hover:bg-orange/90"
             >
-              Etre rappele
+              Être rappelé
             </Link>
           </div>
           <div className="grid gap-4 text-sm font-semibold text-white/90 sm:grid-cols-3">

@@ -113,7 +113,7 @@ const workOptions: Record<
   },
   solaire: {
     label: "Solaire / autoconsommation",
-    description: "Projet a comparer avec les aides energie et les economies attendues.",
+    description: "Projet à comparer avec les aides énergie et les économies attendues.",
     indicativeAid: {
       tres_modeste: 1000,
       modeste: 800,
@@ -170,7 +170,7 @@ const MaPrimeRenovSimulator = () => {
     setHasSubmitted(true);
 
     const whatsappMessage = [
-      "Nouvelle demande MaPrimeRenov EnergieCompare",
+      "Nouvelle demande MaPrimeRénov ÉnergieCompare",
       `Statut: ${values.ownerStatus}`,
       `Logement: ${values.housingType}`,
       `Residence: ${values.residence}`,
@@ -219,10 +219,10 @@ const MaPrimeRenovSimulator = () => {
                 Aide renovation energetique
               </span>
               <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white md:text-4xl">
-                Estimez votre aide MaPrimeRenov et vos economies d&apos;energie
+                Estimez votre aide MaPrimeRénov et vos économies d&apos;énergie
               </h1>
               <p className="text-base font-medium leading-relaxed text-body-color">
-                MaPrimeRenov aide les proprietaires a financer des travaux de
+                MaPrimeRénov aide les propriétaires à financer des travaux de
                 chauffage, d&apos;isolation ou de renovation d&apos;ampleur. Cette
                 simulation donne une premiere orientation avant verification du
                 dossier avec un conseiller ou un partenaire qualifie.
@@ -369,7 +369,7 @@ const MaPrimeRenovSimulator = () => {
 
                 <label className="block">
                   <span className="mb-2 block text-sm font-semibold text-dark dark:text-white">
-                    Facture energie annuelle
+                    Facture énergie annuelle
                   </span>
                   <input
                     value={values.annualEnergyBill}
@@ -399,12 +399,12 @@ const MaPrimeRenovSimulator = () => {
 
               <label className="mt-5 block">
                 <span className="mb-2 block text-sm font-semibold text-dark dark:text-white">
-                  Email ou telephone
+                  Email ou téléphone
                 </span>
                 <input
                   value={values.contact}
                   onChange={(event) => updateValue("contact", event.target.value)}
-                  placeholder="Pour etre rappele par un conseiller"
+                  placeholder="Pour être rappelé par un conseiller"
                   className="w-full rounded-sm border border-stroke bg-[#f8f8f8] px-4 py-3 text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B]"
                 />
               </label>
@@ -457,7 +457,7 @@ const MaPrimeRenovSimulator = () => {
               </p>
               {hasSubmitted && !simulation.isEligibleBase && (
                 <p className="mt-4 rounded-sm bg-white p-4 text-sm font-semibold text-orange dark:bg-dark">
-                  MaPrimeRenov cible principalement les proprietaires de
+                  MaPrimeRénov cible principalement les propriétaires de
                   residences principales dans des logements anciens. Un
                   conseiller peut verifier les alternatives.
                 </p>
@@ -504,11 +504,11 @@ const MaPrimeRenovSimulator = () => {
             },
             {
               title: "Comparer les impacts",
-              text: "Mettre en regard l'aide estimee, les economies annuelles et le reste a charge potentiel.",
+              text: "Mettre en regard l'aide estimée, les économies annuelles et le reste à charge potentiel.",
             },
             {
               title: "Transformer le projet",
-              text: "Orienter le visiteur vers un installateur, un conseiller energie ou un partenaire renovation.",
+              text: "Orienter le visiteur vers un installateur, un conseiller énergie ou un partenaire rénovation.",
             },
           ].map((item) => (
             <article

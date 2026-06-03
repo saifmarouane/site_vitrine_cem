@@ -11,7 +11,7 @@ const Blog = () => {
       <div className="container">
         <SectionTitle
           title="Guides pour mieux choisir"
-          paragraph="Des contenus pratiques pour comprendre les prix, changer de fournisseur et reduire votre facture d'energie."
+          paragraph="Des contenus pratiques pour comprendre les prix, changer de fournisseur et réduire votre facture d'énergie."
           center
         />
 

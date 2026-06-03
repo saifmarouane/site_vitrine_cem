@@ -1,20 +1,20 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import InfoPage from "@/components/Energy/InfoPage";
 import { electricityPage } from "@/data/energyPages";
+import { siteContent } from "@/data/siteContent";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Comparer les offres electricite | EnergieCompare",
-  description:
-    "Comprenez le prix du kWh, l'abonnement, la puissance compteur et les heures pleines/heures creuses avant de comparer.",
+  title: siteContent.electricity.metadata.title,
+  description: siteContent.electricity.metadata.description,
 };
 
 const ElectricitePage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Electricite"
-        description="Comparez les offres d'electricite selon votre consommation, votre compteur et vos preferences."
+        pageName={siteContent.electricity.h1}
+        description={siteContent.electricity.paragraphs.join(" ")}
       />
       <InfoPage intro={electricityPage.intro} items={electricityPage.items} />
     </>

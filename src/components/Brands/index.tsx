@@ -14,7 +14,7 @@ const Brands = () => {
                   Principaux fournisseurs references
                 </h2>
                 <p className="text-base font-medium leading-relaxed text-body-color">
-                  Nous referencons les principaux fournisseurs d&apos;energie du
+                  Nous référençons les principaux fournisseurs d&apos;énergie du
                   marche francais afin de vous aider a comparer les prix, les
                   conditions, les offres vertes et les options disponibles.
                 </p>

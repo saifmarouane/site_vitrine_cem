@@ -1,6 +1,9 @@
 import Link from "next/link";
+import { siteContent } from "@/data/siteContent";
 
 const Hero = () => {
+  const { home } = siteContent;
+
   return (
     <>
       <section
@@ -12,12 +15,10 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Comparez les offres d&apos;electricite et de gaz en quelques minutes
+                  {home.h1}
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  EnergieCompare vous aide a trouver une offre adaptee a votre
-                  logement, votre consommation et vos preferences : prix fixe,
-                  offre verte, gaz, electricite ou contrat sans engagement.
+                  {home.subtitle}
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
@@ -30,14 +31,13 @@ const Hero = () => {
                     href="/contact"
                     className="inline-block rounded-sm bg-orange px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-orange/90"
                   >
-                    Parler a un conseiller
+                    Parler à un conseiller
                   </Link>
                 </div>
                 <div className="mt-10 grid gap-3 text-sm font-medium text-body-color dark:text-body-color-dark sm:grid-cols-2 lg:grid-cols-4">
-                  <span>Comparaison gratuite</span>
-                  <span>Electricite & gaz</span>
-                  <span>Accompagnement humain</span>
-                  <span>Donnees mises a jour</span>
+                  {home.badges.map((badge) => (
+                    <span key={badge}>{badge}</span>
+                  ))}
                 </div>
               </div>
             </div>

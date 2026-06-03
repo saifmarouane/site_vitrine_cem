@@ -44,7 +44,7 @@ const Contact = () => {
     }
 
     if (!values.phone.trim()) {
-      nextErrors.phone = "Le telephone est requis.";
+      nextErrors.phone = "Le téléphone est requis.";
     }
 
     if (!values.postalCode?.trim()) {
@@ -64,7 +64,7 @@ const Contact = () => {
     }
 
     const whatsappMessage = [
-      "Nouvelle demande de rappel CEM",
+      "Nouvelle demande de rappel ÉnergieCompare",
       `Nom: ${values.name}`,
       `Email: ${values.email}`,
       `Telephone: ${values.phone}`,
@@ -86,7 +86,7 @@ const Contact = () => {
       setValues(initialValues);
     } catch {
       setSubmitError(
-        "WhatsApp a ete ouvert. Si le fichier Excel ne se remplit pas, l'API locale n'est pas disponible sur cet hebergement.",
+        "WhatsApp a été ouvert. Si le fichier Excel ne se remplit pas, l'API locale n'est pas disponible sur cet hébergement.",
       );
     } finally {
       setIsSubmitting(false);
@@ -110,7 +110,7 @@ const Contact = () => {
               {isSubmitted && (
                 <div className="mb-8 rounded-sm bg-primary/10 p-4 text-base font-semibold text-primary">
                   Votre demande a ete enregistree dans le fichier Excel local et
-                  WhatsApp a ete ouvert avec le message a envoyer.
+                  WhatsApp a été ouvert avec le message à envoyer.
                 </div>
               )}
               {submitError && (
@@ -230,7 +230,7 @@ const Contact = () => {
                         htmlFor="energyType"
                         className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
-                        Type d&apos;energie
+                        Type d&apos;énergie
                       </label>
                       <select
                         id="energyType"
@@ -240,7 +240,7 @@ const Contact = () => {
                         }
                         className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two"
                       >
-                        <option value="electricite">Electricite</option>
+                        <option value="electricite">Électricité</option>
                         <option value="gaz">Gaz</option>
                         <option value="les_deux">Les deux</option>
                       </select>
@@ -271,9 +271,9 @@ const Contact = () => {
 
                   <div className="w-full px-4">
                     <p className="mb-6 text-sm leading-relaxed text-body-color">
-                      Les donnees transmises via ce formulaire sont utilisees
+                      Les données transmises via ce formulaire sont utilisées
                       uniquement pour traiter votre demande et vous recontacter
-                      si necessaire.
+                      si nécessaire.
                     </p>
                     <button
                       disabled={isSubmitting}

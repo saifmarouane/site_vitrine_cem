@@ -23,7 +23,7 @@ const NewsLatterBox = () => {
     }
 
     const whatsappMessage = [
-      "Nouvelle demande d'information CEM",
+      "Nouvelle demande d'information ÉnergieCompare",
       `Nom: ${name}`,
       `Email: ${email}`,
       "Source: formulaire lateral",
@@ -54,7 +54,7 @@ const NewsLatterBox = () => {
         Recevoir un accompagnement
       </h3>
       <p className="mb-11 border-b border-body-color border-opacity-25 pb-11 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
-        Laissez vos coordonnees pour qu&apos;un conseiller CEM prepare votre
+        Laissez vos coordonnées pour qu&apos;un conseiller ÉnergieCompare prépare votre
         demande et vous recontacte.
       </p>
       <form onSubmit={handleSubmit}>
@@ -89,7 +89,7 @@ const NewsLatterBox = () => {
           {isSubmitting ? "Enregistrement..." : "Envoyer la demande"}
         </button>
         <p className="text-center text-base leading-relaxed text-body-color dark:text-body-color-dark">
-          Les donnees sont utilisees uniquement pour traiter votre demande.
+          Les données sont utilisées uniquement pour traiter votre demande.
         </p>
       </form>
 

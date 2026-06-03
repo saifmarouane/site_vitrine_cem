@@ -2,45 +2,39 @@ import { Guide } from "@/types/energy";
 
 export const guides: Guide[] = [
   {
-    title: "Comment changer de fournisseur d'electricite ?",
+    title: "Changer de fournisseur d'électricité ou de gaz en 2025",
     description:
-      "Les etapes pour comparer les offres, choisir un nouveau contrat et changer sans coupure.",
-    href: "/guides",
+      "Le guide complet et gratuit pour changer de fournisseur sans coupure, sans frais et avec un délai légal maîtrisé.",
+    href: "/guides/changer-fournisseur",
   },
   {
-    title: "Comment changer de fournisseur de gaz ?",
+    title: "Comprendre sa facture d'énergie",
     description:
-      "Les points a verifier avant de souscrire une nouvelle offre gaz.",
-    href: "/guides",
+      "Prix du kWh, abonnement, TURPE, TICFE et TVA : les lignes essentielles à décrypter avant de comparer.",
+    href: "/guides/comprendre-facture",
   },
   {
-    title: "Comprendre le prix du kWh",
+    title: "Électricité verte : vérifier une offre 100 % renouvelable",
     description:
-      "Le role du prix du kWh, de l'abonnement et de votre consommation annuelle.",
-    href: "/guides",
+      "Garanties d'Origine, production renouvelable et badge GO : les critères pour éviter les offres floues.",
+    href: "/energie-verte",
   },
   {
-    title: "Prix fixe ou prix indexe : que choisir ?",
+    title: "Panneaux solaires photovoltaïques",
     description:
-      "Les differences entre prix fixe, prix variable et prix indexe.",
-    href: "/guides",
+      "Installation, rentabilité, aides 2025, autoconsommation et vente du surplus.",
+    href: "/panneaux-solaires",
   },
   {
-    title: "Comment reduire sa facture d'energie ?",
+    title: "MaPrimeRénov' 2025",
     description:
-      "Les bons reflexes pour ajuster votre consommation et comparer votre contrat.",
-    href: "/guides",
+      "Éligibilité, plafonds de ressources, travaux financés et étapes pour obtenir l'aide.",
+    href: "/maprimerenov",
   },
   {
-    title: "Electricite verte : comment comparer ?",
+    title: "Simulateur d'économies énergie",
     description:
-      "Garanties d'origine, prix, conditions et engagements fournisseurs.",
-    href: "/guides",
-  },
-  {
-    title: "Demenagement : ouvrir un contrat energie",
-    description:
-      "Les informations a preparer pour ouvrir un contrat lors d'un changement de logement.",
-    href: "/guides",
+      "Calculez votre coût annuel actuel et comparez-le aux meilleures offres disponibles.",
+    href: "/simulateur",
   },
 ];

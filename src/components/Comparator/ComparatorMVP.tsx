@@ -1,6 +1,7 @@
 "use client";
 
 import { simulatedOffers } from "@/data/offers";
+import { siteContent } from "@/data/siteContent";
 import { ComparatorFormValues, SimulatedOffer } from "@/types/energy";
 import { buildWhatsAppUrl, submitFormData } from "@/utils/formSubmission";
 import Link from "next/link";
@@ -22,9 +23,9 @@ const initialValues: ComparatorFormValues = {
 };
 
 const energyLabels = {
-  electricite: "Electricite",
+  electricite: "Électricité",
   gaz: "Gaz",
-  les_deux: "Electricite + gaz",
+  les_deux: "Électricité + gaz",
 };
 
 const priceLabels = {
@@ -39,6 +40,7 @@ const isCompatibleEnergy = (
 ) => offer.energyType === selectedEnergy || offer.energyType === "les_deux";
 
 const ComparatorMVP = () => {
+  const { comparator } = siteContent;
   const [values, setValues] = useState(initialValues);
   const [hasSearched, setHasSearched] = useState(false);
   const [submitError, setSubmitError] = useState("");
@@ -75,12 +77,12 @@ const ComparatorMVP = () => {
     setHasSearched(true);
 
     const whatsappMessage = [
-      "Nouvelle comparaison energie CEM",
+      "Nouvelle comparaison énergie ÉnergieCompare",
       `Logement: ${values.housingType}`,
       `Surface: ${values.surface || "Non renseignee"}`,
       `Occupants: ${values.occupants}`,
       `Code postal: ${values.postalCode || "Non renseigne"}`,
-      `Energie: ${values.energyType}`,
+      `Énergie: ${values.energyType}`,
       `Fournisseur actuel: ${values.currentSupplier || "Non renseigne"}`,
       `Consommation: ${values.annualConsumption || "Non renseignee"}`,
       `Puissance: ${values.meterPower} kVA`,
@@ -121,9 +123,7 @@ const ComparatorMVP = () => {
               Votre profil de consommation
             </h2>
             <p className="mb-8 text-base font-medium leading-relaxed text-body-color">
-              Renseignez les informations principales pour afficher des offres
-              simulees. Aucune donnee n&apos;est envoyee a une API dans cette
-              version.
+              {comparator.notice}
             </p>
 
             <div className="grid gap-5 sm:grid-cols-2">
@@ -186,7 +186,7 @@ const ComparatorMVP = () => {
 
               <label className="block">
                 <span className="mb-2 block text-sm font-semibold text-dark dark:text-white">
-                  Type d&apos;energie
+                  Type d&apos;énergie
                 </span>
                 <select
                   value={values.energyType}
@@ -195,7 +195,7 @@ const ComparatorMVP = () => {
                   }
                   className="w-full rounded-sm border border-stroke bg-[#f8f8f8] px-4 py-3 text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B]"
                 >
-                  <option value="electricite">Electricite</option>
+                  <option value="electricite">Électricité</option>
                   <option value="gaz">Gaz</option>
                   <option value="les_deux">Les deux</option>
                 </select>
@@ -249,7 +249,7 @@ const ComparatorMVP = () => {
 
               <label className="block">
                 <span className="mb-2 block text-sm font-semibold text-dark dark:text-white">
-                  Preference tarifaire
+                  Préférence tarifaire
                 </span>
                 <select
                   value={values.pricePreference}
@@ -266,7 +266,7 @@ const ComparatorMVP = () => {
 
               <label className="block">
                 <span className="mb-2 block text-sm font-semibold text-dark dark:text-white">
-                  Email ou telephone
+                  Email ou téléphone
                 </span>
                 <input
                   value={values.contact}
@@ -306,25 +306,23 @@ const ComparatorMVP = () => {
               disabled={isSubmitting}
               className="mt-8 w-full rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white duration-300 hover:bg-primary/90 disabled:cursor-not-allowed disabled:opacity-70"
             >
-              {isSubmitting ? "Enregistrement..." : "Afficher les resultats"}
+              {isSubmitting ? "Enregistrement..." : "Afficher les résultats"}
             </button>
           </form>
 
           <div>
             <div className="mb-6 rounded-sm bg-primary/10 p-6">
               <h2 className="mb-2 text-2xl font-bold text-black dark:text-white">
-                Resultats simules
+                Résultats personnalisés
               </h2>
               <p className="text-base font-medium leading-relaxed text-body-color">
-                Les prix affiches sont des exemples pour valider l&apos;interface.
-                La future version connectera une vraie API de comparaison.
+                {comparator.resultsText}
               </p>
             </div>
 
             {!hasSearched && (
               <div className="mb-6 rounded-sm border border-body-color/10 p-5 text-base font-medium text-body-color dark:border-white/10">
-                Remplissez le formulaire puis lancez la comparaison pour
-                afficher les offres les plus pertinentes.
+                {comparator.steps.map((step) => `${step.title} : ${step.text}`).join(" ")}
               </div>
             )}
             {submitError && (
@@ -385,12 +383,15 @@ const ComparatorMVP = () => {
                       href="/contact"
                       className="rounded-sm bg-orange px-6 py-3 text-center text-base font-semibold text-white duration-300 hover:bg-orange/90"
                     >
-                      Etre rappele
+                      Être rappelé
                     </Link>
                   </div>
                 </article>
               ))}
             </div>
+            <p className="mt-6 rounded-sm bg-primary/10 p-5 text-base font-medium leading-relaxed text-body-color">
+              {comparator.reassurance}
+            </p>
           </div>
         </div>
       </div>

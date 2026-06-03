@@ -8,16 +8,15 @@ import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
+import { siteContent } from "@/data/siteContent";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "EnergieCompare — Comparez les offres d'electricite et de gaz",
-  description:
-    "Comparez les fournisseurs d'energie en France, estimez vos economies et trouvez une offre d'electricite, de gaz ou d'energie verte adaptee a votre logement.",
+  title: siteContent.home.metadata.title,
+  description: siteContent.home.metadata.description,
   openGraph: {
-    title: "Comparez les offres d'energie en France",
-    description:
-      "Electricite, gaz, energie verte : trouvez une offre adaptee et changez facilement de fournisseur.",
+    title: siteContent.home.metadata.title,
+    description: siteContent.home.metadata.description,
   },
 };
 
@@ -30,6 +29,20 @@ export default function Home() {
       <Brands />
       <AboutSectionOne />
       <AboutSectionTwo />
+      <section className="pb-16 md:pb-20 lg:pb-28">
+        <div className="container">
+          <div className="mx-auto max-w-[920px]">
+            {siteContent.home.intro.map((paragraph) => (
+              <p
+                key={paragraph}
+                className="mb-6 text-lg font-medium leading-relaxed text-body-color"
+              >
+                {paragraph}
+              </p>
+            ))}
+          </div>
+        </div>
+      </section>
       <Testimonials />
       <Pricing />
       <Blog />

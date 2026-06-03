@@ -1,20 +1,20 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import { siteContent } from "@/data/siteContent";
 import { guides } from "@/data/guides";
 import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Guides energie | EnergieCompare",
-  description:
-    "Guides pratiques pour changer de fournisseur, comprendre le prix du kWh et reduire votre facture d'energie.",
+  title: siteContent.guides.metadata.title,
+  description: siteContent.guides.metadata.description,
 };
 
 const GuidesPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Guides"
-        description="Des contenus pratiques pour comprendre le marche de l'energie et preparer votre comparaison."
+        pageName={siteContent.guides.h1}
+        description={siteContent.guides.intro}
       />
 
       <section className="pb-16 pt-12 md:pb-20 lg:pb-28">
@@ -35,7 +35,7 @@ const GuidesPage = () => {
                   href={guide.href}
                   className="text-base font-semibold text-primary hover:underline"
                 >
-                  Poser une question
+                  Lire le guide
                 </Link>
               </article>
             ))}

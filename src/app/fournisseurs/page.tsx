@@ -1,20 +1,20 @@
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import { siteContent } from "@/data/siteContent";
 import { suppliers } from "@/data/suppliers";
 import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Fournisseurs energie | EnergieCompare",
-  description:
-    "Decouvrez les principaux fournisseurs d'electricite, de gaz et d'energie verte references par EnergieCompare.",
+  title: siteContent.suppliers.metadata.title,
+  description: siteContent.suppliers.metadata.description,
 };
 
 const FournisseursPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Fournisseurs"
-        description="Nous referencons les principaux fournisseurs d'energie du marche francais afin de vous aider a comparer les prix, les conditions, les offres vertes et les options disponibles."
+        pageName={siteContent.suppliers.h1}
+        description={siteContent.suppliers.intro}
       />
 
       <section className="pb-16 pt-12 md:pb-20 lg:pb-28">
@@ -34,6 +34,18 @@ const FournisseursPage = () => {
                 <p className="mb-6 text-base font-medium leading-relaxed text-body-color dark:text-body-color-dark">
                   {supplier.description}
                 </p>
+                <h3 className="mb-2 text-base font-bold text-black dark:text-white">
+                  {siteContent.suppliers.cardHeading}
+                </h3>
+                <p className="mb-5 text-sm font-medium leading-relaxed text-body-color">
+                  {siteContent.suppliers.cardText}
+                </p>
+                <h3 className="mb-2 text-base font-bold text-black dark:text-white">
+                  {siteContent.suppliers.reviewHeading}
+                </h3>
+                <p className="mb-6 text-sm font-medium leading-relaxed text-body-color">
+                  {siteContent.suppliers.reviewText}
+                </p>
                 <Link
                   href="/comparer"
                   className="text-base font-semibold text-primary hover:underline"
@@ -43,6 +55,9 @@ const FournisseursPage = () => {
               </article>
             ))}
           </div>
+          <p className="mt-10 rounded-sm bg-orange/10 p-5 text-sm font-semibold leading-relaxed text-body-color">
+            {siteContent.suppliers.transparency}
+          </p>
         </div>
       </section>
     </>
