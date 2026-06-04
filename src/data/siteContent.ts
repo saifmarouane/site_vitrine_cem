@@ -330,39 +330,30 @@ export const siteContent = {
   },
   testimonials: {
     metadata: {
-      title: "Témoignages clients | ÉnergieCompare",
+      title: "Communauté Facebook | ÉnergieCompare",
       description:
-        "Découvrez les témoignages de clients ayant changé de fournisseur énergie ou installé des panneaux solaires grâce à ÉnergieCompare.",
+        "Retrouvez les profils Facebook associés à la communauté ÉnergieCompare pour suivre les échanges et poser vos questions.",
     },
-    h1: "Ils ont changé de fournisseur ou installé leurs panneaux solaires grâce à ÉnergieCompare — Voici leurs témoignages",
+    h1: "Communauté Facebook ÉnergieCompare",
+    intro:
+      "Plutôt que d'afficher de faux avis clients, nous préférons vous orienter vers des profils sociaux publics pour échanger, vérifier et poser vos questions directement.",
     items: [
-      {
-        name: "Marie L.",
-        location: "Lyon (69)",
-        rating: "★★★★★",
-        quote:
-          "J'hésitais depuis des mois à changer de fournisseur par peur des démarches. ÉnergieCompare m'a guidée pas à pas. En moins de 10 minutes, j'ai trouvé une offre 340 € moins chère par an que mon ancien contrat EDF. Le changement s'est fait sans aucun problème, sans coupure, exactement comme promis. Je recommande sans hésiter.",
-        detail:
-          "Économies réalisées : 340 € / an | Nouveau fournisseur : Ekwateur | Offre verte certifiée GO",
-      },
-      {
-        name: "Jean-Pierre M.",
-        location: "Toulouse (31)",
-        rating: "★★★★★",
-        quote:
-          "Grâce au guide MaPrimeRénov' d'ÉnergieCompare, j'ai compris que je pouvais obtenir 5 000 € d'aide pour ma pompe à chaleur. L'équipe m'a aidé à constituer mon dossier et à trouver un installateur RGE dans ma ville. Mon reste à charge final était de moins de 3 000 €. Ma facture de chauffage a été divisée par trois.",
-        detail:
-          "Aide obtenue : 5 000 € MPR + 1 200 € CEE | Installation : PAC air/eau 8 kW | Économies : 1 400 €/an",
-      },
-      {
-        name: "Sylvie et Robert K.",
-        location: "Nantes (44)",
-        rating: "★★★★★",
-        quote:
-          "Nous avons installé 9 panneaux solaires en juin 2024 après avoir utilisé le simulateur du site. La rentabilité estimée s'est avérée très proche de la réalité : en 14 mois, nous avons économisé 890 € sur nos factures et touché 340 € de revente de surplus. On regrette de ne pas l'avoir fait plus tôt !",
-        detail:
-          "Installation : 3 kWc | Prime autoconsommation perçue : 960 € | TVA à 10 % appliquée",
-      },
+      // {
+      //   name: "Arto Artouu",
+      //   platform: "Facebook",
+      //   profileUrl: "https://www.facebook.com/Artoartouu",
+      //   description:
+      //     "Profil Facebook public pour suivre les échanges autour des offres énergie, poser une question et vérifier la présence sociale du projet.",
+      //   cta: "Voir le profil Facebook",
+      // },
+      // {
+      //   name: "Isael Cervantes",
+      //   platform: "Facebook",
+      //   profileUrl: "https://www.facebook.com/isael.cervantes.1",
+      //   description:
+      //     "Profil Facebook public pour créer une preuve sociale plus transparente qu'un témoignage généré ou non vérifiable.",
+      //   cta: "Voir le profil Facebook",
+      // },
     ],
   },
   faq: {
@@ -438,4 +429,3 @@ export const siteContent = {
       "ÉnergieCompare s'engage à répondre à toute réclamation dans un délai maximum de 48 heures ouvrées. Si vous n'êtes pas satisfait de notre service, vous pouvez saisir gratuitement le Médiateur national de l'énergie à l'adresse energie-mediateur.fr.",
   },
 };
-

@@ -5,7 +5,8 @@ export type FormSubmissionType =
   | "contact"
   | "comparator"
   | "newsletter"
-  | "renovation";
+  | "renovation"
+  | "testimonial";
 
 export const buildWhatsAppUrl = (message: string) =>
   `https://wa.me/${whatsappPhone}?text=${encodeURIComponent(message)}`;

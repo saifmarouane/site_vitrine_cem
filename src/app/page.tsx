@@ -9,7 +9,10 @@ import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import { siteContent } from "@/data/siteContent";
+import { getStoredTestimonialReviews } from "@/utils/testimonialReviews";
 import { Metadata } from "next";
+
+export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: siteContent.home.metadata.title,
@@ -20,7 +23,9 @@ export const metadata: Metadata = {
   },
 };
 
-export default function Home() {
+export default async function Home() {
+  const testimonialReviews = await getStoredTestimonialReviews();
+
   return (
     <>
       <ScrollUp />
@@ -43,7 +48,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <Testimonials />
+      <Testimonials reviews={testimonialReviews} />
       <Pricing />
       <Blog />
       <Contact />
